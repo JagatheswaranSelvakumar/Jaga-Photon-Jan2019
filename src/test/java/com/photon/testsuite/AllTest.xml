@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Search_Test_Suite" thread-count="1" verbose="1">
+	<test name="SearchTest" junit="false" preserve-order="true">
+		<classes>
+			<class name="com.photon.runner.TestRunner" />
+		</classes>
+	</test>
+</suite>
